@@ -1,0 +1,38 @@
+{
+  "name": "rn-tv-icons-br",
+  "version": "1.0.0",
+  "description": "Ícones de canais de TV para projetos React Native no Brasil.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rodrigo55pereira/rn-tv-icons-br.git"
+  },
+  "keywords": [
+    "react-native",
+    "icons",
+    "tv",
+    "brasil",
+    "canais",
+    "rn",
+    "react-native-svg"
+  ],
+  "author": "Rodrigo Pereira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rodrigo55pereira/rn-tv-icons-br/issues"
+  },
+  "homepage": "https://github.com/Rodrigo55pereira/rn-tv-icons-br#readme",
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-native": ">=0.64.0",
+    "react-native-svg": ">=12.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

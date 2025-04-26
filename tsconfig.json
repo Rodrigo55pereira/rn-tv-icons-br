@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                       // Deixa moderno para React Native
+    "module": "ESNext",                       // Para usar import/export moderno
+    "jsx": "react",                           // Para interpretar JSX do React Native SVG
+    "declaration": true,                      // Para gerar arquivos .d.ts (importantíssimo para quem instalar)
+    "declarationDir": "dist",                  // Onde salvar os .d.ts
+    "outDir": "dist",                          // Onde salvar o JavaScript compilado
+    "esModuleInterop": true,                   // Para poder usar import de libs CommonJS
+    "allowSyntheticDefaultImports": true,      // Permite importar default
+    "moduleResolution": "Node",                // Padrão de resolução para Node.js
+    "strict": true,                            // Ativa todas as checagens fortes do TypeScript
+    "skipLibCheck": true,                      // Ignora verificação de libs
+    "forceConsistentCasingInFileNames": true    // Garante que maiúsculas e minúsculas sejam respeitadas
+  },
+  "include": ["src"]                           // Só compilar a pasta src
+}
