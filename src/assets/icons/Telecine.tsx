@@ -1,5 +1,56 @@
-export const Telecine = () => {
-  return (
-    
-  );
-};
+import React from "react";
+import { IconBase } from "../../components/Icon/types";
+import Svg, { Path } from "react-native-svg";
+
+export const Telecine = ({ size = 100, color = "black" }: IconBase) => (
+  <Svg width={size} height={size} viewBox="0 0 667 667" fill="none">
+    <Path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M126.101 167.491H162.116V133H43.9706L43.7801 167.491H81.5104V263.914H126.101V167.491Z"
+      fill={color}
+    />
+    <Path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M250.058 214.842H305.701V182.83L250.058 182.45V163.013H305.701L305.511 133.095H203.752L203.943 263.244H306.081V233.138H250.058V214.842Z"
+      fill={color}
+    />
+    <Path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M407.838 133.286L362.487 133.667V263.244H457.002V228.562H407.838V133.286Z"
+      fill={color}
+    />
+    <Path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M555.518 215.032H611.163V182.64H555.518V163.203H611.163L610.973 133.285H510.356L510.261 263.435H611.543V233.328H555.518V215.032Z"
+      fill={color}
+    />
+    <Path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M171.786 374.867C124.69 313.834 48.1247 350.734 41.7106 405.238C39.6796 422.496 44.1556 443.972 59.1327 462.146C83.3703 491.557 138.049 499.817 171.024 455.473L135.581 430.319C115.075 454.864 87.4297 438.533 85.9799 416.533C84.5197 394.377 112.188 374.83 135.58 399.449L171.786 374.867Z"
+      fill={color}
+    />
+    <Path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M225.523 480.626H271.257V348.758H225.523V480.626Z"
+      fill={color}
+    />
+    <Path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M327.281 480.246H368.441V428.792L453.048 485.958V349.143H413.413V401.162L327.281 344.566V480.246Z"
+      fill={color}
+    />
+    <Path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M556.283 431.791H611.923V399.075H556.283V379.448H611.923L611.733 349.233H511.121L511.026 480.669H612.304V450.265H556.283V431.791Z"
+      fill={color}
+    />
+  </Svg>
+);
